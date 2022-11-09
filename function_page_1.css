@@ -1,0 +1,35 @@
+body{
+
+    margin:0px;
+    padding:0px;
+   background-color:#5E6F8C;
+}
+
+
+
+#container{
+
+    border:2px solid;
+    background-color:white ;
+    width:85%;
+    margin:auto;
+    height:600px;
+    margin-top:1.75%;
+    border-radius:10px;
+   
+}
+
+
+#left_div{
+
+border:1px solid;
+
+}
+
+
+#right_div{
+
+    border:1px solid;
+    
+    }
+    
