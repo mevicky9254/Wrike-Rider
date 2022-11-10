@@ -9,26 +9,31 @@
     <script src="https://kit.fontawesome.com/24c494a6b6.js"
     crossorigin="anonymous"
   ></script>
+  <link rel="stylesheet" href="./styles/function_page_1.css">
 </head>
 <body>
      
     <div id="container">
         
      <div id="left_div">
-            
-        <img src="" alt="">
-        <p></p>
+          
+       <div> 
+        <img id="logo" src="https://i.ibb.co/RQhW0Jy/20221108-224623.png" alt="">
+        <p id="logotitle"> WRIKE RIDER </p>
+       </div> 
+        <h1>Welcome!<br>
+            Let’s create your<br> account</h1>
      </div>
 
 
      <div id="right_div">
 
-        <img src="" alt="">
+        <img src="https://cdn.wrike.com/static/reg_flow/forms/general_info/reg_form_image--m.png" alt="">
         <input id="name" type="text" placeholder="Your full name">
 
         <div id="mid_input">
             <select id="phone_code">
-                <option value="">+91</option>
+                <option value="91">+91</option>
                 <option value="93">Afghanistan +93</option>
                 <option value="358">Aland Islands +358</option>
                 <option value="355">Albania +355</option>
@@ -530,10 +535,12 @@
         <option value="Zimbabwe">Zimbabwe</option>
         </select>
 
+    <div id="checkbox_div">
         <input id="agreement" type="checkbox">
-        <label for="agreement">I agree to the Terms of Service and the Privacy Policy</label><br>
+        <label for="agreement">I agree to the <a href="">Terms of Service</a> and the <a href="">Privacy Policy</a></label><br>
+    </div>
 
-      <div>
+      <div id="circle">
         <div>
             <div><i class="fa-solid fa-circle"></i></div>
             <div><i class="fa-regular fa-circle"></i></div>
@@ -547,7 +554,7 @@
            
         </div>
 
-        <p>Next</p>
+        <p id="next_btn">Next</p>
     </div>
      </div>
 
@@ -555,4 +562,4 @@
     
 </body>
 </html>
-<script src="function_page_1.js"></script>
+<script src="./scripts/function_page_1.js"></script>
