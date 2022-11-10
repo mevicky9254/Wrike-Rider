@@ -1,0 +1,120 @@
+body{
+    background-color: #f0f2f6;
+}
+.login-container{
+   
+    width: 35%;
+    height: 400px;
+    
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+
+}
+#logo{
+    width: 60px;
+
+    
+}
+#firstdiv{
+    display: flex;
+    text-align: center;
+    width: 50%;
+    margin-top: 120px;
+    margin: auto;
+    margin-bottom: 30px;
+   
+    
+}
+#seconddiv>#email{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid green;
+    border-color: none;
+    border-color: green;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+#seconddiv>#next{
+    width: 64%;
+    height: 42px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    border: none;
+    background-color:#008260 ;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+#seconddiv>#next:hover{
+    background-color:#037e6d
+}
+#seconddiv>#forgot{
+    margin-bottom: 30px;
+      color: rgb(0, 153, 255);;
+      text-decoration: none;
+}
+#thirddiv{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    margin: auto;
+}
+#thirddiv>#google{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+#thirddiv>#apple{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 0px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ddd;
+    cursor: pointer;
+
+}
+#thirddiv>#office{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    padding: 0px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+#thirddiv>#google>img{
+    width: 20px;
+}
+#thirddiv>#apple>img{
+    width: 20px;
+}
+#thirddiv>#office>img{
+    width: 18px;
+}
+#lastline{
+    width: 24%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#lastline>#get_started>a{
+    color: rgb(0, 153, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
