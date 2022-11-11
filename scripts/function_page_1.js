@@ -126,3 +126,4 @@ document.getElementById("name").addEventListener("blur",()=>{
 
  
  }
+
