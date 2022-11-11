@@ -58,3 +58,25 @@ let dropdown = document.querySelector(".dropdown");
     }
 }
 
+// ///////////////////////////registration Validation////////////////////////
+
+let try_for_free=document.querySelector("#try_for_free");
+ 
+try_for_free.onclick=()=>{
+    let business_email=document.querySelector("#business_email").value;
+    if(business_email=="" ){
+        let busines_email=document.querySelector("#business_email");
+        busines_email.style.borderColor="red";
+        // busines_email.value=" *Enter your email ";
+        busines_email.value.style.color="red";
+        busines_email.style.color="red"
+        busines_email.value.style.fontsize="10px";
+    }else if(business_email.includes("@") && business_email.length>=8 && business_email.includes(".com")){
+    window.location.replace("signup.html");
+    }
+    else{
+        let busines_email=document.querySelector("#business_email");
+        busines_email.style.borderColor="red"; 
+        business_email.style.color="red"
+    }
+}

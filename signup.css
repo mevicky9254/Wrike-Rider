@@ -4,10 +4,10 @@ body{
 .login-container{
    
     width: 35%;
-    height: 400px;
+    height: 550px;
     
     margin: auto;
-    margin-top: 80px;
+    margin-top: 30px;
     text-align: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding: 30px;
@@ -30,14 +30,38 @@ body{
    
     
 }
+#seconddiv>#name{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    border-color: none;
+    border-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px 10px;
+    font-size: 14px;
+}
 #seconddiv>#email{
     width: 60%;
     height: 40px;
     border-radius: 5px;
     margin-bottom: 20px;
-    border: 1px solid green;
+    border: 1px solid blue;
     border-color: none;
-    border-color: green;
+    border-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+#seconddiv>#mobile{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    border-color: none;
+    border-color: blue;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 0px 10px;
     font-size: 14px;
@@ -47,14 +71,27 @@ body{
     height: 40px;
     border-radius: 5px;
     margin-bottom: 20px;
-    border: 1px solid green;
+    border: 1px solid blue;
     border-color: none;
-    border-color: green;
+    border-color: blue;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 0px 10px;
     font-size: 14px;
 }
-#seconddiv>#login{
+#seconddiv>#confirmedpassword{
+    width: 60%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    border-color: none;
+    border-color: blue;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+#seconddiv>#signup{
     width: 64%;
     height: 42px;
     border-radius: 10px;
@@ -65,7 +102,7 @@ body{
     cursor: pointer;
     font-size: 16px;
 }
-#seconddiv>#login:hover{
+#seconddiv>#next:hover{
     background-color:#037e6d
 }
 #seconddiv>#forgot{
@@ -124,9 +161,4 @@ body{
     margin: auto;
     display: flex;
     justify-content: space-around;
-}
-#lastline>#get_started>a{
-    color: rgb(0, 153, 255);
-    cursor: pointer;
-    text-decoration: none;
 }
