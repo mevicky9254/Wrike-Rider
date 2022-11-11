@@ -30,12 +30,13 @@ body{
     transform: translate(0px);
 }
 
-.header{
+.head{
     background:#181f38;
     width: 100%;
     height: 60px;
     position: fixed;
     z-index: 10;
+    display: flex;
 }
 #sidebar{
     height: 100%;
@@ -66,10 +67,53 @@ body{
     font-size: 14px;
 }
 .spin{
-    height: 3px;
+    height: 2px;
     background:white;
 }
 
 .spin.mid,.spin.bot{
-    margin-top: 3px;
+    margin-top: 2px;
+}
+
+.head p{
+    margin-left: 50px;
+}
+
+.left{
+    margin: 20px 100px 10px 70px;
+    width: 70px;
+}
+.left i{
+    height: 50px;
+    width: 30px;
+    color: white;
+}
+
+.mid img{
+    width: 50px;
+    margin: 5px 250px 0px 400px;
+}
+
+.right i{
+    color:white;
+    background-color:#08cf65;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 7px;
+}
+.right input{
+    background: #323f5e;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+#login{
+    height: 38px;
+    width: 38px;
+    border-radius: 10px;
+    background-color: #43a047;
+    color: white;
+    margin-top: 7px;
+    margin-left: 10px;
+    padding: 10px 5px;
 }
