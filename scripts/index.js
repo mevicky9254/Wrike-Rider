@@ -1,13 +1,16 @@
-let start_btn=document.getElementById("start_btn");
-start_btn.addEventListener("click",()=>{
+let start_btn2=document.getElementById("start_btn2");
+start_btn2.addEventListener("click",()=>{
 
     clicked_on_start();
 });
 
 
+
+
+
 const clicked_on_start=()=>{
 
-let email=document.getElementById("email").value;
+let email=document.getElementById("start_email").value;
 
 if(email.includes("@") && email!="@gmail.com" && email.includes(".com"))
 {

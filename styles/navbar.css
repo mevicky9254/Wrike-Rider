@@ -35,7 +35,7 @@
 
 
 
-#navbar>#left>div {
+#navbar>#navbar_left>div {
     margin-left: 15px;
     /* border: 1px solid green; */
     padding: 8px;
@@ -44,12 +44,12 @@
     border-radius: 5px;
 }
 
-#navbar>#left>div:hover {
+#navbar>#navbar_left>div:hover {
     background-color: rgba(23, 29, 90, 0.781);
     cursor: pointer;
 }
 
-#navbar>#right>div {
+#navbar>#navbar_right>div {
     margin-right: 20px;
     /* border: 1px solid green; */
     padding: 10px;
@@ -60,11 +60,11 @@
 
 }
 
-#navbar>#right {
+#navbar>#navbar_right {
     width: 80%;
 }
 
-#navbar>#right>div:hover {
+#navbar>#navbar_right>div:hover {
     background-color: rgba(23, 29, 90, 0.781);
     cursor: pointer;
 }
@@ -99,7 +99,7 @@
 
 }
 
-#navbar>#right>#login {
+#navbar>#navbar_right>#login {
     color: rgba(61, 235, 61, 0.658);
     font-weight: bold;
 
