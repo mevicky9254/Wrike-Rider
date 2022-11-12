@@ -1,5 +1,5 @@
-let start_btn2=document.getElementById("start_btn2");
-start_btn2.addEventListener("click",()=>{
+let try_for_free_btn=document.getElementById("try_for_free");
+try_for_free_btn.addEventListener("click",()=>{
 
     clicked_on_start();
 });
@@ -8,9 +8,9 @@ start_btn2.addEventListener("click",()=>{
 
 
 
-const clicked_on_start=()=>{
+function clicked_on_start(){
 
-let email=document.getElementById("start_email").value;
+let email=document.getElementById("business_email").value;
 
 if(email.includes("@") && email!="@gmail.com" && email.includes(".com"))
 {
@@ -46,5 +46,3 @@ alert("Wrong email");
 }
 
 }
-
-
