@@ -27,7 +27,23 @@ if(email.includes("@") && email!="@gmail.com" && email.includes(".com"))
         object["email"]=email;
         
         localStorage.setItem("person_details",JSON.stringify(object));
-        window.location.href="function_page_1.html"; 
+
+     let arr=JSON.parse(localStorage.getItem("details_arr")) || [];
+     
+     let check=false;
+     arr.forEach(function(el){
+           
+          if(el.email==email)
+          {
+            check=true;
+            window.location.href="function_page_4.html"; 
+          }
+     });
+
+          if(check==false)
+          {
+           window.location.href="function_page_1.html";
+          } 
     }
 
     });
