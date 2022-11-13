@@ -155,7 +155,13 @@ const getDetails=()=>{
     object["task3"]=task3;
 
     localStorage.setItem("person_details",JSON.stringify(object));
-    window.location.href="function_page_7.html";
+
+    let arr=JSON.parse(localStorage.getItem("details_arr")) || [];
+
+    arr.push(object);
+
+    localStorage.setItem("details_arr",JSON.stringify(arr));
+    window.location.href="function_page_final.html";
 
 
 }
