@@ -1,5 +1,5 @@
 # Wrike Rider
-Daily Needs is a Lifestyle Accessories Brand that curates stunning designs and prints it on a wide range of personal accessories. We vision to bring the things you love on the things you use.
+Wrike is a work management platform that helps business teams collaborate, plan projects, organize team member tasks and track project completion.
 <h3>Live Demo Link https://glowing-bavarois-8587cc.netlify.app/ </h3>
 
  <h1>Home Page</h1>
