@@ -12,7 +12,7 @@ Daily Needs is a Lifestyle Accessories Brand that curates stunning designs and p
     <img src="https://i.postimg.cc/L8N45L0H/Screenshot-2023-02-27-at-10-25-11-PM.png" alt="">
     <img src="https://i.postimg.cc/ZKmJLVGb/Screenshot-2023-02-27-at-10-25-19-PM.png" alt="">
     <img src="https://i.postimg.cc/HkhGF2h7/Screenshot-2023-02-27-at-10-25-37-PM.png" alt="">
-    <img src="https://i.postimg.cc/rs8YD0Hk/Screenshot-2023-02-27-at-10-25-56-PM.png" alt="">
+<!--     <img src="https://i.postimg.cc/rs8YD0Hk/Screenshot-2023-02-27-at-10-25-56-PM.png" alt=""> -->
     <img src="https://i.postimg.cc/25Qwnjh8/Screenshot-2023-02-27-at-10-26-40-PM.png" alt="">
     <h1>Project Details Page</h1>
     <img src="https://i.postimg.cc/N0DXgKRT/Screenshot-2023-02-27-at-10-26-52-PM.png" alt="">
