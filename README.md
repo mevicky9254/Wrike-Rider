@@ -36,7 +36,7 @@ Daily Needs is a Lifestyle Accessories Brand that curates stunning designs and p
     <ul>
      <li><a href="https://github.com/sonu25122000">@Sonu Kumar</a></li>
     <li><a href="https://github.com/Abhinav-Mourya">@Abhinav Mourya</a></li>
-   <li><a href="https://github.com/nadeemm763">Nadeem</a></li>
+   <li><a href="https://github.com/nadeemm763">Nadeem</a></li> 
   
         
         
